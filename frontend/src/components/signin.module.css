@@ -1,0 +1,53 @@
+.signInBox {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+.inputBox {
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin: 1px 0;
+  border-radius: 5px;
+  width: 30vw;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.continuebtn {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #2e0052;
+  color: white;
+  width: 30vw;
+}
+.continuebtn:hover {
+  background-color: #796e9a;
+}
+.logo {
+  padding: 1rem 1rem 1rem 7rem;
+}
+@media only screen and (max-width: 768px) {
+  .inputBox {
+    width: 50vw;
+  }
+}
+
+.random h5 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.random h5 span {
+  background: #fff;
+  padding: 0 10px;
+}
+.signUpBtn {
+  margin-bottom: 3rem;
+  width: 100%;
+  border: 2px solid grey;
+}
+:root {
+  position: relative;
+  overflow: hidden;
+}
