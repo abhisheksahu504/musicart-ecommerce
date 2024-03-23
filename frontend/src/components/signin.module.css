@@ -8,7 +8,8 @@
   padding: 12px 20px;
   margin: 1px 0;
   border-radius: 5px;
-  width: 30vw;
+  /* width: 30vw; */
+  width: 100%;
   display: inline-block;
   box-sizing: border-box;
 }
@@ -17,19 +18,21 @@
   box-sizing: border-box;
   background-color: #2e0052;
   color: white;
-  width: 30vw;
+  /* width: 30vw; */
+  width: 100%;
 }
 .continuebtn:hover {
   background-color: #796e9a;
 }
 .logo {
-  padding: 1rem 1rem 1rem 7rem;
+  padding: 1rem 1rem 1rem 12rem;
+  width: 30%;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .inputBox {
     width: 50vw;
   }
-}
+} */
 
 .random h5 {
   width: 100%;

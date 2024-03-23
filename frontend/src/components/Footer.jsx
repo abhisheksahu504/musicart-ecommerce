@@ -12,7 +12,7 @@ export const Footer = () => {
           justifyContent: "center",
           height: "70px",
           fontSize: "15px",
-          fontWeight: "bold",
+          fontWeight: "500",
           width: "100vw",
           position: "absolute",
           left: 0,

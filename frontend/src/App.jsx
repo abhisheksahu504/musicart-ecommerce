@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import "./App.css";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import SignUp from "./pages/SignUp";
 const Layout = ({ children }) => {
   <div>
     <header>Header Content</header>
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
         <Footer />
       </BrowserRouter>
