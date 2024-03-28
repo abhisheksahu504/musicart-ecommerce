@@ -1,0 +1,46 @@
+.logo {
+  left: 0;
+  top: 0;
+}
+.logodiv {
+  display: block;
+}
+.homelink {
+  padding: 0rem 1rem 1rem 1rem;
+}
+.imageSection {
+  background: linear-gradient(
+    90deg,
+    rgba(114, 134, 180, 1) 35%,
+    rgba(231, 148, 206, 1) 100%
+  );
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 300px;
+  position: relative;
+}
+.imageSection img {
+  position: absolute;
+  top: -50px;
+}
+body {
+  padding: 0rem 5rem 0rem 5rem;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    padding: 0;
+  }
+}
+.searchbox {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 0px 12px 40px;
+  border: 2px solid #ddd;
+  /* background-image: url("/frontend/src/assets/searchicon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat; */
+  border-radius: 30px;
+  margin: 1rem 0 1rem 0;
+}

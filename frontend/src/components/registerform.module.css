@@ -1,4 +1,36 @@
 .logo {
-  padding: 1rem 1rem 1rem 12rem;
+  padding: 1rem;
   width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+.logodiv {
+  text-align: center;
+}
+.signUpForm {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 15px;
+}
+.inputBox {
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin: 1px 0;
+  border-radius: 5px;
+  /* width: 30vw; */
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+:root {
+  overflow-y: scroll;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+.continuebtn {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #2e0052;
+  color: white;
+  width: 100%;
 }

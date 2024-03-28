@@ -8,13 +8,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem 0 1rem;
-  font-weight: 500;
+  /* padding: 0 1rem 0 2rem; */
+  font-weight: 400;
 }
 #rightSide {
   display: flex;
   align-items: center;
   list-style-type: none;
+  padding-right: 3rem;
   li {
     float: left;
     list-style-type: none;

@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { useState } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import "./App.css";
@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
     <footer>Footer content</footer>
   </div>;
 };
+
 function App() {
   return (
     <>

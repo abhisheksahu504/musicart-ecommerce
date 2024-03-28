@@ -25,7 +25,9 @@ const SignIn = () => {
           <span>New to Musicart?</span>
         </h5>
       </div>
-      <button className={styles.signUpBtn}>Create your Musicart Account</button>
+      <button className={styles.signUpBtn} href="/signup">
+        Create your Musicart Account
+      </button>
     </div>
   );
 };
