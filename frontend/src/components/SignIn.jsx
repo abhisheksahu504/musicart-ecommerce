@@ -1,11 +1,14 @@
 import React from "react";
 import styles from "./signin.module.css";
 import logo from "../assets/musicartLogo.png";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
     <div>
-      <img className={styles.logo} src={logo}></img>
+      <Link to="/">
+        <img className={styles.logo} src={logo}></img>
+      </Link>
       {/* sign in box */}
       <div className={styles.signInBox}>
         <h2>Sign In</h2>
@@ -25,9 +28,11 @@ const SignIn = () => {
           <span>New to Musicart?</span>
         </h5>
       </div>
-      <button className={styles.signUpBtn} href="/signup">
-        Create your Musicart Account
-      </button>
+      <Link to="/signup">
+        <button className={styles.signUpBtn} href="/signup">
+          Create your Musicart Account
+        </button>
+      </Link>
     </div>
   );
 };

@@ -19,5 +19,6 @@
   li {
     float: left;
     list-style-type: none;
+    color: white;
   }
 }

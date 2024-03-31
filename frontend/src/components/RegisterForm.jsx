@@ -1,13 +1,15 @@
 import React from "react";
 import styles from "./registerform.module.css";
 import logo from "../assets/musicartLogo.png";
-
+import { Link } from "react-router-dom";
 const RegisterForm = () => {
   return (
     <div>
       {/* image logo  */}
       <div>
-        <img className={styles.logo} src={logo}></img>
+        <Link to="/">
+          <img className={styles.logo} src={logo}></img>
+        </Link>
       </div>
       {/* signup box */}
       <div className={styles.signUpForm}>
@@ -38,9 +40,7 @@ const RegisterForm = () => {
         <h5 style={{ textAlign: "center" }}>
           Already have an account?
           <span>
-            <a href="/login" style={{ color: "black" }}>
-              Sign In
-            </a>
+            <Link to="/login">Log in</Link>
           </span>
         </h5>
       </div>
